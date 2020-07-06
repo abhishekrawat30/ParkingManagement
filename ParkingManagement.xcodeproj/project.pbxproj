@@ -3,29 +3,127 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3E1FD69F24AB347B001F239A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1FD69E24AB347B001F239A /* AppDelegate.swift */; };
 		3E1FD6A124AB347B001F239A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1FD6A024AB347B001F239A /* SceneDelegate.swift */; };
-		3E1FD6A324AB347B001F239A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1FD6A224AB347B001F239A /* ViewController.swift */; };
 		3E1FD6A624AB347B001F239A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E1FD6A424AB347B001F239A /* Main.storyboard */; };
 		3E1FD6A924AB347B001F239A /* ParkingManagement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E1FD6A724AB347B001F239A /* ParkingManagement.xcdatamodeld */; };
 		3E1FD6AB24AB3482001F239A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E1FD6AA24AB3482001F239A /* Assets.xcassets */; };
 		3E1FD6AE24AB3482001F239A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E1FD6AC24AB3482001F239A /* LaunchScreen.storyboard */; };
+		3E1FD6BA24AB364D001F239A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1FD6B924AB364D001F239A /* SignInViewController.swift */; };
+		3E1FD6BC24AB365F001F239A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1FD6BB24AB365F001F239A /* SignUpViewController.swift */; };
+		3E1FD6BE24AB366D001F239A /* AdminSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1FD6BD24AB366D001F239A /* AdminSignInViewController.swift */; };
+		3E55881624B0D08F00FCFF5C /* NumberParkingDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E55881524B0D08F00FCFF5C /* NumberParkingDetailVC.swift */; };
+		3E55881824B0D14100FCFF5C /* NumberParkingDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E55881724B0D14100FCFF5C /* NumberParkingDetailVM.swift */; };
+		3E55881A24B0E68C00FCFF5C /* AppModalClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E55881924B0E68C00FCFF5C /* AppModalClass.swift */; };
+		3E5F629D24AF9F1900778603 /* CustomerOffline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5F629C24AF9F1800778603 /* CustomerOffline.swift */; };
+		3E5F629F24AFA09200778603 /* CustomerRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5F629E24AFA09200778603 /* CustomerRepo.swift */; };
+		3E5F62A124AFA33700778603 /* PaymentDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5F62A024AFA33700778603 /* PaymentDetailVC.swift */; };
+		3E5F62A324AFA39500778603 /* PaymentDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5F62A224AFA39500778603 /* PaymentDetailVM.swift */; };
+		3E5F62A524AFA82E00778603 /* PriceDistVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5F62A424AFA82E00778603 /* PriceDistVM.swift */; };
+		3EA8377524ABA156001E38FD /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA8377424ABA156001E38FD /* ViewControllerExtension.swift */; };
+		3EA8377724ABA1F6001E38FD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3EA8377624ABA1F6001E38FD /* Localizable.strings */; };
+		3EA8377924ABA2FF001E38FD /* AdminSignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA8377824ABA2FF001E38FD /* AdminSignInModel.swift */; };
+		3EA8377D24ABA841001E38FD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA8377C24ABA841001E38FD /* SearchViewController.swift */; };
+		3EA8378024ABA8F4001E38FD /* UserMallDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA8377F24ABA8F4001E38FD /* UserMallDetailTableViewCell.swift */; };
+		3EA8378224ABA9E3001E38FD /* UserSearchVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA8378124ABA9E3001E38FD /* UserSearchVM.swift */; };
+		3EA8378424ABB201001E38FD /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA8378324ABB201001E38FD /* UserDetailViewController.swift */; };
+		3EA8378624ABB20E001E38FD /* MallDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA8378524ABB20E001E38FD /* MallDetailViewController.swift */; };
+		3EA967E724B1AC6C004AB0FF /* CustomerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA967E624B1AC6C004AB0FF /* CustomerTableViewCell.swift */; };
+		3EB120F224AE4AC90097BFB3 /* UserRegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB120F124AE4AC90097BFB3 /* UserRegistrationVC.swift */; };
+		3EB120F524AE4CC60097BFB3 /* UserRegistrationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB120F424AE4CC60097BFB3 /* UserRegistrationVM.swift */; };
+		3EB120F724AE53EF0097BFB3 /* UserDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB120F624AE53EF0097BFB3 /* UserDetailVM.swift */; };
+		3EB120F924AE5DA60097BFB3 /* SignInVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB120F824AE5DA60097BFB3 /* SignInVM.swift */; };
+		3EB4F78424B1BA680016EA18 /* SearchMallAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB4F78324B1BA680016EA18 /* SearchMallAddressVC.swift */; };
+		6E1EB81C24AE1A1C0008BB6A /* AppUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1EB81B24AE1A1C0008BB6A /* AppUserDefault.swift */; };
+		6E1EB81E24AE1D800008BB6A /* RegUserOffline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1EB81D24AE1D800008BB6A /* RegUserOffline.swift */; };
+		6E1EB82024AE1D960008BB6A /* AddUserRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1EB81F24AE1D960008BB6A /* AddUserRepo.swift */; };
+		6E1EB82224AE21010008BB6A /* AppLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1EB82124AE21010008BB6A /* AppLocationManager.swift */; };
+		6E6CB5BF24AC9D2100DEBE72 /* Mall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E6CB5BE24AC9D2100DEBE72 /* Mall.storyboard */; };
+		6E6CB5C224ACB8BF00DEBE72 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6CB5C124ACB8BF00DEBE72 /* BaseViewController.swift */; };
+		6E6CB5C424ACB8EB00DEBE72 /* AddMallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6CB5C324ACB8EB00DEBE72 /* AddMallVC.swift */; };
+		6E6CB5C624ACB90500DEBE72 /* SearchMallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6CB5C524ACB90500DEBE72 /* SearchMallVC.swift */; };
+		6E6CB5C824ACB92800DEBE72 /* ParkingDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6CB5C724ACB92800DEBE72 /* ParkingDetailVC.swift */; };
+		6E6CB5CA24ACB93A00DEBE72 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6CB5C924ACB93A00DEBE72 /* MapVC.swift */; };
+		6E6CB5CC24ACB94D00DEBE72 /* PriceDistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6CB5CB24ACB94D00DEBE72 /* PriceDistVC.swift */; };
+		6E6CB5CE24ACB97000DEBE72 /* RecieptVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6CB5CD24ACB97000DEBE72 /* RecieptVC.swift */; };
+		6E6CB5D024ACB9ED00DEBE72 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6CB5CF24ACB9ED00DEBE72 /* Utility.swift */; };
+		6E6CB5D224ACBC8500DEBE72 /* AddNewMallVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6CB5D124ACBC8500DEBE72 /* AddNewMallVM.swift */; };
+		6E6CB5D524ACBD1100DEBE72 /* AppTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6CB5D424ACBD1100DEBE72 /* AppTF.swift */; };
+		6E6CB5D824ACC7DC00DEBE72 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6CB5D724ACC7DC00DEBE72 /* CoreDataStack.swift */; };
+		6E6CB5DB24ACC87800DEBE72 /* BaseRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6CB5DA24ACC87800DEBE72 /* BaseRepo.swift */; };
+		6E6CB5DD24ACC97600DEBE72 /* AddMallRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6CB5DC24ACC97600DEBE72 /* AddMallRepo.swift */; };
+		6E6CB5E024ACCAF300DEBE72 /* MallOffline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6CB5DF24ACCAF300DEBE72 /* MallOffline.swift */; };
+		6E6CB5E224ACD8FD00DEBE72 /* SearchMallVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6CB5E124ACD8FD00DEBE72 /* SearchMallVM.swift */; };
+		6E6CB5E624ACDB3E00DEBE72 /* MallDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6CB5E524ACDB3E00DEBE72 /* MallDataCell.swift */; };
+		6E6CB5E924ACE42E00DEBE72 /* MallMapVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6CB5E824ACE42E00DEBE72 /* MallMapVM.swift */; };
+		6EE94A3324AF7A8F000A941F /* PayPalClientSidePayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE94A3224AF7A8F000A941F /* PayPalClientSidePayment.swift */; };
+		8FE101E235642245613ECFB2 /* Pods_ParkingManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E065394E9BAE41191697F603 /* Pods_ParkingManagement.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E11E29855FFCE20B613F5C8 /* Pods-ParkingManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkingManagement.debug.xcconfig"; path = "Target Support Files/Pods-ParkingManagement/Pods-ParkingManagement.debug.xcconfig"; sourceTree = "<group>"; };
 		3E1FD69B24AB347B001F239A /* ParkingManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkingManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E1FD69E24AB347B001F239A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E1FD6A024AB347B001F239A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3E1FD6A224AB347B001F239A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3E1FD6A524AB347B001F239A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E1FD6A824AB347B001F239A /* ParkingManagement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ParkingManagement.xcdatamodel; sourceTree = "<group>"; };
 		3E1FD6AA24AB3482001F239A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E1FD6AD24AB3482001F239A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E1FD6AF24AB3482001F239A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E1FD6B924AB364D001F239A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		3E1FD6BB24AB365F001F239A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3E1FD6BD24AB366D001F239A /* AdminSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminSignInViewController.swift; sourceTree = "<group>"; };
+		3E55881524B0D08F00FCFF5C /* NumberParkingDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberParkingDetailVC.swift; sourceTree = "<group>"; };
+		3E55881724B0D14100FCFF5C /* NumberParkingDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberParkingDetailVM.swift; sourceTree = "<group>"; };
+		3E55881924B0E68C00FCFF5C /* AppModalClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModalClass.swift; sourceTree = "<group>"; };
+		3E5F629C24AF9F1800778603 /* CustomerOffline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerOffline.swift; sourceTree = "<group>"; };
+		3E5F629E24AFA09200778603 /* CustomerRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerRepo.swift; sourceTree = "<group>"; };
+		3E5F62A024AFA33700778603 /* PaymentDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailVC.swift; sourceTree = "<group>"; };
+		3E5F62A224AFA39500778603 /* PaymentDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailVM.swift; sourceTree = "<group>"; };
+		3E5F62A424AFA82E00778603 /* PriceDistVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceDistVM.swift; sourceTree = "<group>"; };
+		3EA8377424ABA156001E38FD /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		3EA8377624ABA1F6001E38FD /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		3EA8377824ABA2FF001E38FD /* AdminSignInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminSignInModel.swift; sourceTree = "<group>"; };
+		3EA8377C24ABA841001E38FD /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		3EA8377F24ABA8F4001E38FD /* UserMallDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMallDetailTableViewCell.swift; sourceTree = "<group>"; };
+		3EA8378124ABA9E3001E38FD /* UserSearchVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchVM.swift; sourceTree = "<group>"; };
+		3EA8378324ABB201001E38FD /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		3EA8378524ABB20E001E38FD /* MallDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallDetailViewController.swift; sourceTree = "<group>"; };
+		3EA967E624B1AC6C004AB0FF /* CustomerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerTableViewCell.swift; sourceTree = "<group>"; };
+		3EB120F124AE4AC90097BFB3 /* UserRegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationVC.swift; sourceTree = "<group>"; };
+		3EB120F424AE4CC60097BFB3 /* UserRegistrationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationVM.swift; sourceTree = "<group>"; };
+		3EB120F624AE53EF0097BFB3 /* UserDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailVM.swift; sourceTree = "<group>"; };
+		3EB120F824AE5DA60097BFB3 /* SignInVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVM.swift; sourceTree = "<group>"; };
+		3EB4F78324B1BA680016EA18 /* SearchMallAddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMallAddressVC.swift; sourceTree = "<group>"; };
+		6E1EB81B24AE1A1C0008BB6A /* AppUserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUserDefault.swift; sourceTree = "<group>"; };
+		6E1EB81D24AE1D800008BB6A /* RegUserOffline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegUserOffline.swift; sourceTree = "<group>"; };
+		6E1EB81F24AE1D960008BB6A /* AddUserRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserRepo.swift; sourceTree = "<group>"; };
+		6E1EB82124AE21010008BB6A /* AppLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLocationManager.swift; sourceTree = "<group>"; };
+		6E6CB5BE24AC9D2100DEBE72 /* Mall.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mall.storyboard; sourceTree = "<group>"; };
+		6E6CB5C124ACB8BF00DEBE72 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		6E6CB5C324ACB8EB00DEBE72 /* AddMallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMallVC.swift; sourceTree = "<group>"; };
+		6E6CB5C524ACB90500DEBE72 /* SearchMallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMallVC.swift; sourceTree = "<group>"; };
+		6E6CB5C724ACB92800DEBE72 /* ParkingDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingDetailVC.swift; sourceTree = "<group>"; };
+		6E6CB5C924ACB93A00DEBE72 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		6E6CB5CB24ACB94D00DEBE72 /* PriceDistVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceDistVC.swift; sourceTree = "<group>"; };
+		6E6CB5CD24ACB97000DEBE72 /* RecieptVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecieptVC.swift; sourceTree = "<group>"; };
+		6E6CB5CF24ACB9ED00DEBE72 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		6E6CB5D124ACBC8500DEBE72 /* AddNewMallVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewMallVM.swift; sourceTree = "<group>"; };
+		6E6CB5D424ACBD1100DEBE72 /* AppTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTF.swift; sourceTree = "<group>"; };
+		6E6CB5D724ACC7DC00DEBE72 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		6E6CB5DA24ACC87800DEBE72 /* BaseRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRepo.swift; sourceTree = "<group>"; };
+		6E6CB5DC24ACC97600DEBE72 /* AddMallRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMallRepo.swift; sourceTree = "<group>"; };
+		6E6CB5DF24ACCAF300DEBE72 /* MallOffline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallOffline.swift; sourceTree = "<group>"; };
+		6E6CB5E124ACD8FD00DEBE72 /* SearchMallVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMallVM.swift; sourceTree = "<group>"; };
+		6E6CB5E524ACDB3E00DEBE72 /* MallDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallDataCell.swift; sourceTree = "<group>"; };
+		6E6CB5E824ACE42E00DEBE72 /* MallMapVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallMapVM.swift; sourceTree = "<group>"; };
+		6EE94A3224AF7A8F000A941F /* PayPalClientSidePayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPalClientSidePayment.swift; sourceTree = "<group>"; };
+		CD67C6790D0DF70DACEB9089 /* Pods-ParkingManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkingManagement.release.xcconfig"; path = "Target Support Files/Pods-ParkingManagement/Pods-ParkingManagement.release.xcconfig"; sourceTree = "<group>"; };
+		E065394E9BAE41191697F603 /* Pods_ParkingManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParkingManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FE101E235642245613ECFB2 /* Pods_ParkingManagement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +143,8 @@
 			children = (
 				3E1FD69D24AB347B001F239A /* ParkingManagement */,
 				3E1FD69C24AB347B001F239A /* Products */,
+				6D8D746D216BDCA7DE4F7722 /* Pods */,
+				96AE79AB7E21CDF8B1ABC256 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +159,200 @@
 		3E1FD69D24AB347B001F239A /* ParkingManagement */ = {
 			isa = PBXGroup;
 			children = (
-				3E1FD69E24AB347B001F239A /* AppDelegate.swift */,
-				3E1FD6A024AB347B001F239A /* SceneDelegate.swift */,
-				3E1FD6A224AB347B001F239A /* ViewController.swift */,
-				3E1FD6A424AB347B001F239A /* Main.storyboard */,
+				6E6CB5D324ACBCF000DEBE72 /* CustomUI */,
+				3EA8377324ABA11E001E38FD /* SupportingFiles */,
+				3E1FD6B524AB35DA001F239A /* SingletonClasses */,
+				3EA8377E24ABA8C8001E38FD /* TableViewCell */,
+				3E1FD6B624AB35F0001F239A /* Controllers */,
+				3E1FD6B724AB35FB001F239A /* Model */,
+				3E1FD6B824AB360F001F239A /* StoryBoards */,
 				3E1FD6AA24AB3482001F239A /* Assets.xcassets */,
-				3E1FD6AC24AB3482001F239A /* LaunchScreen.storyboard */,
 				3E1FD6AF24AB3482001F239A /* Info.plist */,
 				3E1FD6A724AB347B001F239A /* ParkingManagement.xcdatamodeld */,
 			);
 			path = ParkingManagement;
+			sourceTree = "<group>";
+		};
+		3E1FD6B524AB35DA001F239A /* SingletonClasses */ = {
+			isa = PBXGroup;
+			children = (
+				3E1FD69E24AB347B001F239A /* AppDelegate.swift */,
+				3E1FD6A024AB347B001F239A /* SceneDelegate.swift */,
+				3E55881924B0E68C00FCFF5C /* AppModalClass.swift */,
+			);
+			path = SingletonClasses;
+			sourceTree = "<group>";
+		};
+		3E1FD6B624AB35F0001F239A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6E6CB5C024ACB8A100DEBE72 /* Mall */,
+				3E1FD6B924AB364D001F239A /* SignInViewController.swift */,
+				3E1FD6BD24AB366D001F239A /* AdminSignInViewController.swift */,
+				3E1FD6BB24AB365F001F239A /* SignUpViewController.swift */,
+				3EA8377C24ABA841001E38FD /* SearchViewController.swift */,
+				3EA8378324ABB201001E38FD /* UserDetailViewController.swift */,
+				3E5F62A024AFA33700778603 /* PaymentDetailVC.swift */,
+				3E5F62A224AFA39500778603 /* PaymentDetailVM.swift */,
+				3E55881524B0D08F00FCFF5C /* NumberParkingDetailVC.swift */,
+				3E55881724B0D14100FCFF5C /* NumberParkingDetailVM.swift */,
+				3EB120F324AE4CAB0097BFB3 /* RegisterUser */,
+				3EA8378524ABB20E001E38FD /* MallDetailViewController.swift */,
+				6E6CB5C124ACB8BF00DEBE72 /* BaseViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3E1FD6B724AB35FB001F239A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3EA8377824ABA2FF001E38FD /* AdminSignInModel.swift */,
+				3EA8378124ABA9E3001E38FD /* UserSearchVM.swift */,
+				3EB120F624AE53EF0097BFB3 /* UserDetailVM.swift */,
+				3EB120F824AE5DA60097BFB3 /* SignInVM.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3E1FD6B824AB360F001F239A /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				3E1FD6A424AB347B001F239A /* Main.storyboard */,
+				6E6CB5BE24AC9D2100DEBE72 /* Mall.storyboard */,
+				3E1FD6AC24AB3482001F239A /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		3EA8377324ABA11E001E38FD /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3EA8377424ABA156001E38FD /* ViewControllerExtension.swift */,
+				6EE94A3224AF7A8F000A941F /* PayPalClientSidePayment.swift */,
+				6E1EB82124AE21010008BB6A /* AppLocationManager.swift */,
+				6E6CB5CF24ACB9ED00DEBE72 /* Utility.swift */,
+				6E6CB5D724ACC7DC00DEBE72 /* CoreDataStack.swift */,
+				6E1EB81B24AE1A1C0008BB6A /* AppUserDefault.swift */,
+				6E6CB5D924ACC85B00DEBE72 /* LocalRepo */,
+				3EA8377624ABA1F6001E38FD /* Localizable.strings */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		3EA8377E24ABA8C8001E38FD /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3EA8377F24ABA8F4001E38FD /* UserMallDetailTableViewCell.swift */,
+				3EA967E624B1AC6C004AB0FF /* CustomerTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		3EB120F324AE4CAB0097BFB3 /* RegisterUser */ = {
+			isa = PBXGroup;
+			children = (
+				3EB120F124AE4AC90097BFB3 /* UserRegistrationVC.swift */,
+				3EB120F424AE4CC60097BFB3 /* UserRegistrationVM.swift */,
+			);
+			path = RegisterUser;
+			sourceTree = "<group>";
+		};
+		6D8D746D216BDCA7DE4F7722 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E11E29855FFCE20B613F5C8 /* Pods-ParkingManagement.debug.xcconfig */,
+				CD67C6790D0DF70DACEB9089 /* Pods-ParkingManagement.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6E6CB5C024ACB8A100DEBE72 /* Mall */ = {
+			isa = PBXGroup;
+			children = (
+				6E6CB5D624ACC3CA00DEBE72 /* AddNwMall */,
+				6E6CB5E324ACD90100DEBE72 /* SearchMall */,
+				6E6CB5C724ACB92800DEBE72 /* ParkingDetailVC.swift */,
+				6E6CB5E724ACE41100DEBE72 /* MapScreen */,
+				6E6CB5CB24ACB94D00DEBE72 /* PriceDistVC.swift */,
+				3E5F62A424AFA82E00778603 /* PriceDistVM.swift */,
+				6E6CB5CD24ACB97000DEBE72 /* RecieptVC.swift */,
+			);
+			path = Mall;
+			sourceTree = "<group>";
+		};
+		6E6CB5D324ACBCF000DEBE72 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				6E6CB5D424ACBD1100DEBE72 /* AppTF.swift */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		6E6CB5D624ACC3CA00DEBE72 /* AddNwMall */ = {
+			isa = PBXGroup;
+			children = (
+				6E6CB5D124ACBC8500DEBE72 /* AddNewMallVM.swift */,
+				6E6CB5C324ACB8EB00DEBE72 /* AddMallVC.swift */,
+			);
+			path = AddNwMall;
+			sourceTree = "<group>";
+		};
+		6E6CB5D924ACC85B00DEBE72 /* LocalRepo */ = {
+			isa = PBXGroup;
+			children = (
+				6E6CB5DA24ACC87800DEBE72 /* BaseRepo.swift */,
+				6E6CB5DE24ACCAD400DEBE72 /* OfflineClasses */,
+			);
+			path = LocalRepo;
+			sourceTree = "<group>";
+		};
+		6E6CB5DE24ACCAD400DEBE72 /* OfflineClasses */ = {
+			isa = PBXGroup;
+			children = (
+				6E6CB5DC24ACC97600DEBE72 /* AddMallRepo.swift */,
+				6E1EB81D24AE1D800008BB6A /* RegUserOffline.swift */,
+				6E1EB81F24AE1D960008BB6A /* AddUserRepo.swift */,
+				6E6CB5DF24ACCAF300DEBE72 /* MallOffline.swift */,
+				3E5F629E24AFA09200778603 /* CustomerRepo.swift */,
+				3E5F629C24AF9F1800778603 /* CustomerOffline.swift */,
+			);
+			path = OfflineClasses;
+			sourceTree = "<group>";
+		};
+		6E6CB5E324ACD90100DEBE72 /* SearchMall */ = {
+			isa = PBXGroup;
+			children = (
+				6E6CB5E424ACDB1100DEBE72 /* MallSerchCell */,
+				6E6CB5C524ACB90500DEBE72 /* SearchMallVC.swift */,
+				3EB4F78324B1BA680016EA18 /* SearchMallAddressVC.swift */,
+				6E6CB5E124ACD8FD00DEBE72 /* SearchMallVM.swift */,
+			);
+			path = SearchMall;
+			sourceTree = "<group>";
+		};
+		6E6CB5E424ACDB1100DEBE72 /* MallSerchCell */ = {
+			isa = PBXGroup;
+			children = (
+				6E6CB5E524ACDB3E00DEBE72 /* MallDataCell.swift */,
+			);
+			path = MallSerchCell;
+			sourceTree = "<group>";
+		};
+		6E6CB5E724ACE41100DEBE72 /* MapScreen */ = {
+			isa = PBXGroup;
+			children = (
+				6E6CB5C924ACB93A00DEBE72 /* MapVC.swift */,
+				6E6CB5E824ACE42E00DEBE72 /* MallMapVM.swift */,
+			);
+			path = MapScreen;
+			sourceTree = "<group>";
+		};
+		96AE79AB7E21CDF8B1ABC256 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E065394E9BAE41191697F603 /* Pods_ParkingManagement.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +362,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E1FD6B224AB3482001F239A /* Build configuration list for PBXNativeTarget "ParkingManagement" */;
 			buildPhases = (
+				7E9208F2B02642A7EFBF884C /* [CP] Check Pods Manifest.lock */,
 				3E1FD69724AB347B001F239A /* Sources */,
 				3E1FD69824AB347B001F239A /* Frameworks */,
 				3E1FD69924AB347B001F239A /* Resources */,
+				634073033D2CCB8C48123069 /* [CP] Embed Pods Frameworks */,
+				58C67C323FEEA5EF2B03624D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +417,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E1FD6AE24AB3482001F239A /* LaunchScreen.storyboard in Resources */,
+				6E6CB5BF24AC9D2100DEBE72 /* Mall.storyboard in Resources */,
+				3EA8377724ABA1F6001E38FD /* Localizable.strings in Resources */,
 				3E1FD6AB24AB3482001F239A /* Assets.xcassets in Resources */,
 				3E1FD6A624AB347B001F239A /* Main.storyboard in Resources */,
 			);
@@ -136,15 +426,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		58C67C323FEEA5EF2B03624D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParkingManagement/Pods-ParkingManagement-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParkingManagement/Pods-ParkingManagement-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ParkingManagement/Pods-ParkingManagement-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		634073033D2CCB8C48123069 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParkingManagement/Pods-ParkingManagement-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParkingManagement/Pods-ParkingManagement-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ParkingManagement/Pods-ParkingManagement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E9208F2B02642A7EFBF884C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParkingManagement-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E1FD69724AB347B001F239A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E1FD6A324AB347B001F239A /* ViewController.swift in Sources */,
+				6E6CB5DD24ACC97600DEBE72 /* AddMallRepo.swift in Sources */,
+				3EA8378024ABA8F4001E38FD /* UserMallDetailTableViewCell.swift in Sources */,
+				3E5F62A124AFA33700778603 /* PaymentDetailVC.swift in Sources */,
+				6E6CB5D524ACBD1100DEBE72 /* AppTF.swift in Sources */,
+				3EA8377D24ABA841001E38FD /* SearchViewController.swift in Sources */,
+				6E6CB5C424ACB8EB00DEBE72 /* AddMallVC.swift in Sources */,
+				3E5F629D24AF9F1900778603 /* CustomerOffline.swift in Sources */,
+				6E1EB81E24AE1D800008BB6A /* RegUserOffline.swift in Sources */,
+				3EB4F78424B1BA680016EA18 /* SearchMallAddressVC.swift in Sources */,
+				3EA8378424ABB201001E38FD /* UserDetailViewController.swift in Sources */,
+				6E6CB5E924ACE42E00DEBE72 /* MallMapVM.swift in Sources */,
+				6E6CB5CC24ACB94D00DEBE72 /* PriceDistVC.swift in Sources */,
+				3EA967E724B1AC6C004AB0FF /* CustomerTableViewCell.swift in Sources */,
 				3E1FD69F24AB347B001F239A /* AppDelegate.swift in Sources */,
+				6EE94A3324AF7A8F000A941F /* PayPalClientSidePayment.swift in Sources */,
 				3E1FD6A124AB347B001F239A /* SceneDelegate.swift in Sources */,
+				3EB120F224AE4AC90097BFB3 /* UserRegistrationVC.swift in Sources */,
+				6E6CB5C224ACB8BF00DEBE72 /* BaseViewController.swift in Sources */,
+				3EA8377524ABA156001E38FD /* ViewControllerExtension.swift in Sources */,
+				3EB120F724AE53EF0097BFB3 /* UserDetailVM.swift in Sources */,
+				6E6CB5E624ACDB3E00DEBE72 /* MallDataCell.swift in Sources */,
+				6E6CB5C624ACB90500DEBE72 /* SearchMallVC.swift in Sources */,
+				6E6CB5D224ACBC8500DEBE72 /* AddNewMallVM.swift in Sources */,
+				3E55881824B0D14100FCFF5C /* NumberParkingDetailVM.swift in Sources */,
+				3EA8377924ABA2FF001E38FD /* AdminSignInModel.swift in Sources */,
+				3E5F62A324AFA39500778603 /* PaymentDetailVM.swift in Sources */,
+				6E1EB81C24AE1A1C0008BB6A /* AppUserDefault.swift in Sources */,
+				3EA8378624ABB20E001E38FD /* MallDetailViewController.swift in Sources */,
+				3EB120F524AE4CC60097BFB3 /* UserRegistrationVM.swift in Sources */,
+				3E55881624B0D08F00FCFF5C /* NumberParkingDetailVC.swift in Sources */,
+				6E6CB5CA24ACB93A00DEBE72 /* MapVC.swift in Sources */,
+				6E1EB82224AE21010008BB6A /* AppLocationManager.swift in Sources */,
+				3EA8378224ABA9E3001E38FD /* UserSearchVM.swift in Sources */,
+				3E5F629F24AFA09200778603 /* CustomerRepo.swift in Sources */,
+				6E6CB5D024ACB9ED00DEBE72 /* Utility.swift in Sources */,
+				3EB120F924AE5DA60097BFB3 /* SignInVM.swift in Sources */,
+				6E1EB82024AE1D960008BB6A /* AddUserRepo.swift in Sources */,
+				6E6CB5E224ACD8FD00DEBE72 /* SearchMallVM.swift in Sources */,
+				6E6CB5C824ACB92800DEBE72 /* ParkingDetailVC.swift in Sources */,
+				3E1FD6BE24AB366D001F239A /* AdminSignInViewController.swift in Sources */,
+				3E1FD6BA24AB364D001F239A /* SignInViewController.swift in Sources */,
+				6E6CB5D824ACC7DC00DEBE72 /* CoreDataStack.swift in Sources */,
 				3E1FD6A924AB347B001F239A /* ParkingManagement.xcdatamodeld in Sources */,
+				3E1FD6BC24AB365F001F239A /* SignUpViewController.swift in Sources */,
+				6E6CB5CE24ACB97000DEBE72 /* RecieptVC.swift in Sources */,
+				6E6CB5E024ACCAF300DEBE72 /* MallOffline.swift in Sources */,
+				3E5F62A524AFA82E00778603 /* PriceDistVM.swift in Sources */,
+				6E6CB5DB24ACC87800DEBE72 /* BaseRepo.swift in Sources */,
+				3E55881A24B0E68C00FCFF5C /* AppModalClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +680,7 @@
 		};
 		3E1FD6B324AB3482001F239A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E11E29855FFCE20B613F5C8 /* Pods-ParkingManagement.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,15 +689,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.ParkingManagement;
+				PRODUCT_BUNDLE_IDENTIFIER = com.park.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3E1FD6B424AB3482001F239A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD67C6790D0DF70DACEB9089 /* Pods-ParkingManagement.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -311,10 +707,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.ParkingManagement;
+				PRODUCT_BUNDLE_IDENTIFIER = com.park.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

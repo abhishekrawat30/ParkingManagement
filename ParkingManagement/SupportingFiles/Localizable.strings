@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  ParkingManagement
+
+  Created by abhishekrawat on 30/06/20.
+  Copyright © 2020 Test. All rights reserved.
+*/
+
+"OK" = "OK";
+"USERNAME_REQUIRED" = "Username cannot be blank";
+"PASSWORD_REQUIRED" = "Password cannot be blank";
+"INVALID_ADMIN" = "Credentials are not valid";
+"Enter_Search_Text" = "Please enter text to search!";
+"No_Data" = "No Data Found!";
+"Enter_VALID_NO" = "Enter Valid No to search!";
+"ENTER_MONTHS" = "Enter No of months";
+"ENTER_DAYS" = "Enter No of days";
+"ENTER_HOURS" = "Enter No of hours";
